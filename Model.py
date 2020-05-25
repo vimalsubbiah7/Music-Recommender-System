@@ -30,7 +30,7 @@ songs = song_df['song'].unique()
 
 #CREATE A RECOMMENDER
 train_data, test_data = train_test_split(song_df, test_size = 0.20, random_state=0)
-#print(train_data.head(5))
+print(train_data.head(5))
 
 
 
