@@ -1,11 +1,8 @@
-# Music-Recommender-System
-songs recommender 
+# Music-Recommender-System 
 
-Basic song recommender 
-## TO BE COMPLETED
+Basic music recommender 
 
-
-
+### CHECK PLOTS FOR PRECISION-RECALL CURVES
 
  
 ## DATA TO BE DOWNLOADED :
@@ -14,3 +11,4 @@ triplets_file = 'https://static.turi.com/datasets/millionsong/10000.txt'
 songs_metadata_file = 'https://static.turi.com/datasets/millionsong/song_data.csv'
 
 # Matrix Factorization based Recommender System to be added later
+#### TO BE COMPLETED
