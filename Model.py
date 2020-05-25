@@ -51,7 +51,7 @@ is_model.create(train_data, 'user_id', 'song')
 
 user_id = users[5]
 user_items = is_model.get_user_items(user_id)
-'''
+
 print("------------------------------------------------------------------------------------")
 print("Training data songs for the user userid: %s:" % user_id)
 print("------------------------------------------------------------------------------------")
@@ -64,7 +64,7 @@ print("Recommendation process going on:")
 print("----------------------------------------------------------------------")
 ###Recommend songs for the user using personalized model
 #print(is_model.recommend(user_id))
-'''
+
 
 #  REMOVE COMMENTS TO THE CODE ABOVE TO GET UR RESULT !!
 #SIMILAR SONGS IN DATASET
