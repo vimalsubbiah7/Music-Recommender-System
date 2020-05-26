@@ -28,13 +28,13 @@ song_grouped.sort_values(['listen_count', 'song'], ascending = [0,1])
 #print(song_grouped.head())
 
 users = song_df['user_id'].unique()
-#print(len(users))
+#print(len(users)
 songs = song_df['song'].unique()
 #print(len(songs))
 
 #CREATE A RECOMMENDER
 train_data, test_data = train_test_split(song_df, test_size = 0.20, random_state=0)
-#print(train_data.head(5))
+print(train_data.head(5))
 
 
 #USING RECOMMENDERS.PY AS A BLACKBOX
@@ -63,12 +63,12 @@ print("----------------------------------------------------------------------")
 print("Recommendation process going on:")
 print("----------------------------------------------------------------------")
 ###Recommend songs for the user using personalized model
-#print(is_model.recommend(user_id))
+print(is_model.recommend(user_id))
 
 
 #  REMOVE COMMENTS TO THE CODE ABOVE TO GET UR RESULT !!
 #SIMILAR SONGS IN DATASET
-#print(is_model.get_similar_items(['Yellow - Coldplay']))
+print(is_model.get_similar_items(['Yellow - Coldplay']))
 
 
 
