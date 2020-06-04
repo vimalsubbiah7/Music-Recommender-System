@@ -208,7 +208,7 @@ class item_similarity_recommender_py():
         cooccurence_matrix = self.construct_cooccurence_matrix(user_songs, all_songs)
         
         #######################################################
-        #D. Use the cooccurence matrix to make recommendations
+        #D.Use the cooccurence matrix to make recommendations
         #######################################################
         user = ""
         df_recommendations = self.generate_top_recommendations(user, cooccurence_matrix, all_songs, user_songs)
